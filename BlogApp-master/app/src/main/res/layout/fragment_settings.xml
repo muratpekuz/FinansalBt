@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SettingsFragment">
+
+    <ImageView
+        android:id="@+id/murat_name"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        app:srcCompat="@drawable/murat"
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/murat_text"
+        android:layout_width="231dp"
+        android:layout_height="21dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Murat Pekuz - Android Developer"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <ImageView
+        android:id="@+id/muaz_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        app:srcCompat="@drawable/muaz"
+        tools:src="@tools:sample/avatars" />
+    <TextView
+        android:id="@+id/muaz_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Muaz Duran - Android Developer"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <ImageView
+        android:id="@+id/onur_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        app:srcCompat="@drawable/onur"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/onur_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Onur Özden - Proje Yöneticisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="292dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:src="@drawable/alperen"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Alperen Kılıç - Tester"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:src="@drawable/abd2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Abdurrahman Doğan - Marketing"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="530dp" />
+
+</GridLayout>
